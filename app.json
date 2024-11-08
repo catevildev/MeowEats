@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MeowEats",
+    "slug": "cliente",
+    "version": "3.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/logos/me_ica.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logos/me_ica.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#06CDEF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AlzaSy3pYjYWomcQ57VCMY9OdESXxRwYejLy_9A"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {},
+      "package": "com.catevil.meoweats",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AlzaSy3pYjYWomcQ57VCMY9OdESXxRwYejLy_9A"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ecf3de3-ae95-4a0f-8023-50d062c0ffee"
+      }
+    }
+  }
+}
