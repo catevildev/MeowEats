@@ -1,4 +1,6 @@
 
+![MeowEats Logo](./assets/logos/me_bc.png)
+
 # MeowEats - Sistema de Delivery de Comida e Produtos
 
 O MeowEats é um aplicativo móvel para pedidos de comida e produtos, desenvolvido com **React Native** para garantir compatibilidade com Android e iOS. Ele permite que usuários explorem cardápios, façam pedidos e acompanhem entregas em tempo real.
