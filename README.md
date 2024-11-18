@@ -1,5 +1,5 @@
 
-![MeowEats Logo](./assets/logos/me_bc.png)
+![MeowEats Logo](https://prnt.sc/IwHHT8ShZz_6)
 
 # MeowEats - Sistema de Delivery de Comida e Produtos
 
