@@ -1,22 +1,27 @@
 import { createSlice } from '@reduxjs/toolkit'
 
+// Estado inicial para o slice do restaurante
 const initialState = {
-    restaurante: null,
+    restaurante: null, // Inicialmente, não há restaurante selecionado
 }
 
+// Definição do slice "restaurante"
 export const restauranteSlice = createSlice({
-  name: 'restaurante',
-  initialState,
+  name: 'restaurante', // Nome slice
+  initialState, // Estado inicial definido acima
   reducers: {
+    // Reducer para definir o restaurante selecionado
     setRestaurante: (state, action) => {
-      state.restaurante = action.payload; // Substituir o valor diretamente
+      state.restaurante = action.payload; // Atualiza o restaurante no estado com o valor enviado na ação
     },
   },
 })
 
-// Action creators são gerados para cada função de reducer
+// Exporta a ação gerada automaticamente para o reducer
 export const { setRestaurante } = restauranteSlice.actions;
 
-export const selectRestaurant = state=> state.restaurante.restaurante;
+// Seletor para acessar o restaurante selecionado no estado global
+export const selectRestaurant = (state) => state.restaurante.restaurante;
 
-export default restauranteSlice.reducer
+// Exportação do reducer para ser incluído no store do Redux
+export default restauranteSlice.reducer;

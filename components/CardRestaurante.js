@@ -32,6 +32,7 @@ export default function CardRestaurante({item}) {
           </View>
           <View className="flex-row items-center space-x-1">
             <Icon.MapPin color="gray" width="15" height="15" />
+            {/* O endereço foi atualizado para 25 caracteres, maior que isso ... */}
             <Text className="text-gray-700 text-xs">
               Proximo · {item.address.length > 25 ? `${item.address.slice(0, 25)}...` : item.address}
             </Text>
